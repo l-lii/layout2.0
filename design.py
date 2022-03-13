@@ -298,6 +298,8 @@ class Ui_Weights(object):
         self.calibButton.setToolTip(_translate("Weights", "Калибровка"))
         self.scanButton.setToolTip(_translate("Weights", "Сканирование"))
         self.saveButton.setToolTip(_translate("Weights", "Сохранение"))
+        self.confirmButton.setToolTip(_translate("Weights", "Подтвердить порт"))
         self.labelWorkStatus.setText(_translate("Weights", "Статус работы: "))
         self.label.setText(_translate("Weights", "работает"))
+
 import icons
